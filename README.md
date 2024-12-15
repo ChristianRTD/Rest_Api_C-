@@ -1,33 +1,33 @@
 # Rest_Api_C#
-# API REST en C# con .NET Core
+# REST API in C# with .NET Core
 
-## Descripción
+## Description
 
-Este proyecto es un ejemplo de una **API REST** sencilla desarrollada en **C#** utilizando **.NET Core**. El objetivo de este proyecto es proporcionar una API básica que maneje datos de usuarios. El proyecto se utiliza para comprender los conceptos básicos de la construcción de APIs RESTful utilizando .NET Core, y cómo crear controladores, manejar solicitudes HTTP y retornar respuestas en formato JSON.
+This project is an example of a simple **REST API** developed in **C#** using **.NET Core**. The goal of this project is to provide a basic API that handles user data. The project is used to understand the basics of building RESTful APIs using .NET Core, and how to create controllers, handle HTTP requests and return responses in JSON format.
 
-## Funcionalidades
+## Functionalities
 
-- **GET /api/users**: Obtiene la lista de usuarios.
-- **GET /api/users/{id}**: Obtiene un usuario específico por su ID.
-- **POST /api/users**: Crea un nuevo usuario.
-- **PUT /api/users/{id}**: Actualiza la información de un usuario.
-- **DELETE /api/users/{id}**: Elimina un usuario por su ID.
+- GET /api/users**: Gets the users list.
+- GET /api/users/{id}**: Gets a specific user by their ID.
+- **POST /api/users**: Creates a new user.
+- **PUT /api/users/{id}**: Updates a user's information.
+- DELETE /api/users/{id}**: Deletes a user by ID.
 
-## Tecnologías
+## Technologies
 
-Este proyecto está construido con las siguientes tecnologías:
+This project is built with the following technologies:
 
-- **C#**: Lenguaje de programación utilizado.
-- **.NET Core**: Framework para crear la API RESTful.
-- **Visual Studio Code**: Editor de código utilizado para el desarrollo.
-- **Swagger**: Para la documentación interactiva de la API.
+- **C#**: Programming language used.
+- .NET Core**: Framework to create the RESTful API.
+- Visual Studio Code**: Code editor used for development.
+- **Swagger**: For interactive API documentation.
 
-## Instalación
+## Installation
 
-Para ejecutar este proyecto localmente, sigue los siguientes pasos:
+To run this project locally, follow the steps below:
 
-### 1. Clonar el repositorio
+### 1. Clone the repository
 
-```bash
+````bash
 git clone https://github.com/tuusuario/RestApiExample.git
 cd RestApiExample
