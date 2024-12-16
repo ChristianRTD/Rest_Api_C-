@@ -12,9 +12,9 @@ namespace RestApiExample.Controllers
         // Lista estática de usuarios para la demostración
         private static List<User> users = new List<User>
         {
-            new User { Id = 1, Name = "Juan", Email = "juan@example.com" },
-            new User { Id = 2, Name = "Ana", Email = "ana@example.com" },
-            new User { Id = 3, Name = "Pedro", Email = "pedro@example.com" }
+            new User { Id = 1, Name = "Christian", Email = "christian@example.com" },
+            new User { Id = 2, Name = "Viviana", Email = "viviana@example.com" },
+            new User { Id = 3, Name = "Pepito", Email = "pepito@example.com" }
         };
 
         // GET api/users
