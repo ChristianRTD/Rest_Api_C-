@@ -18,13 +18,13 @@ namespace RestApiExample
                 {
                     webBuilder.ConfigureServices(services =>
                     {
-                        // Añadir servicios de controlador API
+                        // Add API driver services
                         services.AddControllers();
                     });
                     
                     webBuilder.Configure(app =>
                     {
-                        // Configuración de la tubería de solicitudes HTTP
+                        // HTTP request pipeline configuration
                         app.UseHttpsRedirection();
                         app.UseRouting();
 
