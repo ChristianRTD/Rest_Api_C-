@@ -15,6 +15,7 @@ namespace RestApiExample.Controllers
             new User { Id = 1, Name = "Christian", Email = "christian@example.com" },
             new User { Id = 2, Name = "Viviana", Email = "viviana@example.com" },
             new User { Id = 3, Name = "Pepito", Email = "pepito@example.com" }
+            new User { Id = 4, Name = "Juanito", Email = "juanito@example.com" }
         };
 
         // GET api/users
